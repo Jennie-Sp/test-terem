@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<main>
+
+    <div class="container">
+<!--Шапка -->
+        <section>
+            <div class="header">
+                <h1 class="header-heading">Регистрация сертификата &laquo;Дом в подарок&raquo;</h1>
+                <img class="header-img" src="house-gift.jpg" alt="House_at_a_gift">
+            </div>
+        </section>
+<!--Форма регистрации сертификата-->
+        <section>
+            <div class="block-reg-certificate">
+                <div class="reg-certificate">
+                    <h2 class="reg-heading">Регистрация сертификата</h2>
+                    <p class="reg-text">Для регистрации сертификата &#8211; введите код сертификата и ваши контактные данные</p>
+                    <form class="form-reg-certificate" action="">
+                        <input class="input-reg-certificate" type="text" name="cod-reg" placeholder="Код сертификата" pattern="[0-9]{5}" required> <br>
+                        <input class="input-reg-certificate" type="text" name="name-reg" placeholder="Ваше имя"> <br>
+                        <input class="input-reg-certificate" type="tel" name="tel-reg" placeholder="Ваш телефон" pattern="[7-8]9[0-9]{9}" required> <br>
+                        <input class="input-reg-certificate" type="email" name="mail-reg" placeholder="Ваш e-mail" required> <br>
+                        <input class="submit-reg-certificate" type="submit" name="sub-reg" value="ОТПРАВИТЬ ЗАЯВКУ НА УЧАСТИЕ В АКЦИИ" class="submit">
+                    </form>
+                    <p class="privacy-policy-form-reg">Отправляя форму Вы соглашаетесь с <a href="#">Политикой обработки данных</a></p>
+                </div>
+            </div>
+            <!--Выпадашки с инф. о сертификате-->
+            <div class="info-certificate about-certificate">Что дает сертификат? <span>&#813;</span></div>
+            <div class="info-certificate get-certificate">Где получить сертификат? <span>&#813;</span></div>
+        </section>
+<!--Подвал-->
+        <section>
+            <h1 class="about-action-heading">Если остались вопросы по участию в акции</h1>
+            <p class="about-action-text">Оставьте телефонный номер наши специалистывяжутся с Вами через 30 секунд.</p>
+            <form class="about-action-form" action="">
+                <div class="about-action-wrap1">
+                    <input class="about-action-input-name" type="text" name="name-consult" placeholder="Ваше имя">
+                    <input class="about-action-input-tel" type="tel" name="tel-consult" placeholder="+7 (_ _ _) _ _ _ _ _ _ _" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}\s?[-]{0,1}\d{2}\s?[-]{0,1}\d{2}" required >
+                    <input class="about-action-sub" type="submit" name="sub-consult" value="Заявка на консультацию">
+                </div>
+                <div class="about-action-wrap2">
+                    <input class="about-action-check" type="checkbox" name="check-consult" required>
+                    <p class="about-action-check-text">Я принимаю условия Политики обработки данных</p>
+                </div>
+            </form>
+        </section>
+    </div>
+
+</main>
+</body>
+</html>

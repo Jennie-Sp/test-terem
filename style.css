@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+/*<!--Разметка -->*/
+.container {
+    width: 1140px;
+    height: 1608px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    margin: 0 46px -4px;
+}
+
+
+/*<!--Шапка -->*/
+.header {
+    text-align: center;
+}
+.header-heading {
+    margin-top: 0;
+    padding-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 31px;
+}
+.header-img {
+    margin-top: -8px;
+}
+
+/*<!--Форма регистрации сертификата-->*/
+.block-reg-certificate {
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 67px;
+}
+.reg-certificate {
+    width: 460px;
+}
+.reg-heading {
+    text-transform: uppercase;
+    color: #c13229;
+    font-size: 27px;
+    padding-top: 18px;
+    margin-bottom: -5px;
+}
+.reg-text {
+    line-height: 20px;
+}
+.form-reg-certificate {
+    margin-top: 21px;
+}
+.input-reg-certificate {
+    height: 38px;
+    width: 417px;
+    margin: 11px 0;
+    padding: 1px 13px;
+    font-size: 15px;
+}
+.submit-reg-certificate {
+    margin-top: 41px;
+    height: 45px;
+    width: 447px;
+    border: none;
+    color: #fff;
+    background-color: #c13229;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.privacy-policy-form-reg {
+    font-size: 14px;
+    margin: 1px;
+    color: #404040;
+    padding-top: 13px;
+}
+.privacy-policy-form-reg > a {
+    color: #404040;
+    text-decoration: none;
+    border-bottom: 1px solid #404040;
+    padding-bottom: 1px;
+}
+/*<!--Выпадашки с инф. о сертификате-->*/
+.info-certificate {
+    background-color: #e5e5e5;
+    font-weight: 600;
+    padding: 13px 31px;
+    width: 987px;
+    height: 17px;
+    text-transform: uppercase;
+}
+.info-certificate > span {
+    font-size: 36px;
+    transform: rotate(180deg);
+    display: block;
+    margin-left: 987px;
+    margin-top: -14px;
+}
+.about-certificate {
+    margin-top: 22px;
+}
+.get-certificate {
+    margin-top: 18px;
+}
+
+
+/*<!--Подвал-->*/
+.about-action-heading {
+    margin-left: 33px;
+    padding-top: 38px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 27px;
+    font-family: 'Oswald', sans-serif;
+}
+.about-action-text {
+    margin-left: 32px;
+    margin-top: -12px;
+}
+.about-action-wrap1 {
+    margin-top: 54px;
+    margin-left: 34px;
+    display: flex;
+}
+.about-action-wrap2 {
+    display: flex;
+}
+.about-action-input-name {
+    height: 38px;
+    width: 416px;
+    padding: 2px 13px;
+    font-size: 15px;
+}
+.about-action-input-tel {
+    margin-left: 17px;
+    height: 38px;
+    width: 193px;
+    padding: 2px 13px;
+    font-size: 15px;
+}
+.about-action-sub {
+    margin-left: 14px;
+    padding-left: 16px;
+    height: 45px;
+    width: 314px;
+    border: none;
+    color: #fff;
+    background-color: #c13229;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.about-action-check {
+    width: 18px;
+    height: 18px;
+    margin: 25px 0 0 32px;
+}
+.about-action-check-text {
+    display: inline;
+    margin: 26px 9px;
+}
+
+
+
+
+
+
+
+
+

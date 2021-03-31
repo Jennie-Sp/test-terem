@@ -102,12 +102,20 @@ section {
     height: 17px;
     text-transform: uppercase;
 }
-.info-certificate > span {
+.about-certificate-span,
+.get-certificate-span {
     font-size: 36px;
     transform: rotate(180deg);
     display: block;
     margin-left: 987px;
     margin-top: -14px;
+}
+.info-certificate-span-rotate {
+    font-size: 36px;
+    transform: rotate(0deg);
+    display: block;
+    margin-left: 1000px;
+    margin-top: -45px;
 }
 .about-certificate {
     margin-top: 22px;
@@ -115,9 +123,26 @@ section {
 .get-certificate {
     margin-top: 18px;
 }
+.certificate-hidden {
+    background-color: #e5e5e5;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+.certificate-hidden > ul > li {
+    line-height: 30px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+.about-certificate-hidden {
+    display: none;
+}
+.get-certificate-hidden {
+    display: none;
+}
 
 
-/*<!--Подвал-->*/
+
+    /*<!--Подвал-->*/
 .about-action-heading {
     margin-left: 33px;
     padding-top: 38px;
